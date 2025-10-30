@@ -4,6 +4,7 @@ Descripción del Proyecto
 En este proyecto implementamos un sistema automatizado de segmentación y conteo de células y patógenos en imágenes de cultivos celulares y tejidos histológicos, utilizando técnicas avanzadas de procesamiento de imágenes y aprendizaje no supervisado. El objetivo principal es desarrollar un método robusto y reproducible que permita la cuantificación precisa de estructuras biológicas de interés clínico y de investigación.
 
 Objetivos Específicos
+
 Imagen 1 (Cultivo Celular con Patógenos):
 
 Segmentación diferencial de células sanas (núcleos teñidos con hematoxilina) y patógenos (estructuras marrones teñidas con eosina)
@@ -18,6 +19,7 @@ Aplicación en investigación: Screening de compuestos y ensayos de citotoxicida
 
 
 Metodología Implementada
+
 Pipeline de Procesamiento
 
 Preprocesamiento Cromático:
