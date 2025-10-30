@@ -18,7 +18,7 @@ Evaluación de toxicidad y eficacia terapéutica mediante conteo de núcleos int
 Aplicación en investigación: Screening de compuestos y ensayos de citotoxicidad
 
 
-# Metodología Implementada
+# Metodología Implementada: Imagen 1
 
 - Preprocesamiento Cromático:
 
@@ -34,15 +34,12 @@ Identificación automática de clústeres mediante análisis de centroides
 Asignación contextual basada en características espectrales (B alto = células)
 
 
-- Post-procesamiento Morfológico:
-
-Apertura matemática (erosión + dilatación) con elemento diamante
-Eliminación de ruido (objetos < 3 píxeles)
-Separación de agrupaciones fusionadas
-
-
 - Cuantificación Automatizada:
 
 Etiquetado conectado de componentes
 Análisis de propiedades con regionprops
 Validación visual con superposición semitransparente
+
+# Metodología Implementada: Imagen 2
+
+
