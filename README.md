@@ -1,4 +1,4 @@
-# Procesamiento-de-Imagen
+# Procesamiento de Imágenes celulares
 
 Descripción del Proyecto
 En este proyecto implementamos un sistema automatizado de segmentación y conteo de células y patógenos en imágenes de cultivos celulares y tejidos histológicos, utilizando técnicas avanzadas de procesamiento de imágenes y aprendizaje no supervisado. El objetivo principal es desarrollar un método robusto y reproducible que permita la cuantificación precisa de estructuras biológicas de interés clínico y de investigación.
