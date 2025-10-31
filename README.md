@@ -7,15 +7,15 @@ En este proyecto implementamos un sistema automatizado de segmentación y conteo
 
 - Imagen 1:
 
-Segmentación diferencial de células sanas (núcleos teñidos con hematoxilina) y patógenos (estructuras marrones).
-Conteo automatizado para detección precoz de infecciones y evaluación de carga parasitaria.
-Posible aplicación clínica: Diagnóstico de enfermedades infecciosas y monitoreo de tratamientos antiparasitarios.
+Segmentación diferencial de células sanas (núcleos teñidos con hematoxilina) y patógenos (estructuras marrones).<br>
+Conteo automatizado para detección precoz de infecciones y evaluación de carga parasitaria.<br>
+Posible aplicación clínica: Diagnóstico de enfermedades infecciosas y monitoreo de tratamientos antiparasitarios.<br>
 
 - Imagen 2:
 
-Segmentación de células agrupadas en cultivos o tejidos.
-Identificación y conteo de células individuales para la evaluación de viabilidad celular.
-Aplicación en investigación: cuantificación de células tras la aplicación de fármacos para analizar toxicidad y respuesta terapéutica.
+Segmentación de células agrupadas en cultivos o tejidos.<br>
+Identificación y conteo de células individuales para la evaluación de viabilidad celular.<br>
+Aplicación en investigación: cuantificación de células tras la aplicación de fármacos para analizar toxicidad y respuesta terapéutica.<br>
 
 
 # Metodología Implementada: Imagen 1
