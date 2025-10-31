@@ -1,6 +1,6 @@
 # Procesamiento de Imágenes celulares
 
-Descripción del Proyecto
+Descripción del Proyecto:<br>
 En este proyecto implementamos un sistema automatizado de segmentación y conteo de células y patógenos en imágenes de cultivos celulares y tejidos histológicos, utilizando técnicas avanzadas de procesamiento de imágenes y aprendizaje no supervisado. El objetivo principal es desarrollar un método robusto y reproducible que permita la cuantificación precisa de estructuras biológicas de interés clínico y de investigación.
 
 # Objetivos Específicos
@@ -22,38 +22,38 @@ Aplicación en investigación: cuantificación de células tras la aplicación d
 
 - Preprocesamiento Cromático:
 
-Realce selectivo de hematoxilina mediante transformación CIELAB.
-Amplificación de componente b* (azul-amarillo) con factor controlado.
-Preservación de información espacial sin introducción de artefactos.
+Realce selectivo de hematoxilina mediante transformación CIELAB.<br>
+Amplificación de componente b* (azul-amarillo) con factor controlado.<br>
+Preservación de información espacial sin introducción de artefactos.<br>
 
 
 - Segmentación No Supervisada:
 
-Agrupamiento K-Means en espacios de color RGB, HSV y LAB. Escogimos RGB.
-Identificación automática de clústeres mediante análisis de centroides.
-Asignación contextual basada en características espectrales (B alto = células).
+Agrupamiento K-Means en espacios de color RGB, HSV y LAB. Escogimos RGB.<br>
+Identificación automática de clústeres mediante análisis de centroides.<br>
+Asignación contextual basada en características espectrales (B alto = células).<br>
 
 
 - Cuantificación Automatizada:
 
-Etiquetado conectado de componentes.
-Análisis de propiedades con regionprops.
-Validación visual con superposición.
+Etiquetado conectado de componentes.<br>
+Análisis de propiedades con regionprops.<br>
+Validación visual con superposición.<br>
 
 # Metodología Implementada: Imagen 2
 
 - Preprocesamiento:
 
-Cambio de espacio desde RGB a HSV y extracción del canal V.
-Aplicación de filtro gaussiano y aumento de contraste.
+Cambio de espacio desde RGB a HSV y extracción del canal V.<br>
+Aplicación de filtro gaussiano y aumento de contraste.<br>
 
 
 - Segmentación No Supervisada:
 
-Aplicación de umbralización adaptativa.
+Aplicación de umbralización adaptativa.<br>
 
 
 - Posprocesamiento y cuantificación automatizada:
 
-Aplicación de método de clausura a la máscara binaria.
-Cuantificación mediante labels.
+Aplicación de método de clausura a la máscara binaria.<br>
+Cuantificación mediante labels.<br>
