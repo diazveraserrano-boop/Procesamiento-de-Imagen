@@ -44,16 +44,16 @@ Validación visual con superposición.
 
 - Preprocesamiento:
 
-  Cambio de espacio desde RGB a HSV y extracción del canal V.
-  Aplicación de filtro gaussiano y aumento de contraste.
+Cambio de espacio desde RGB a HSV y extracción del canal V.
+Aplicación de filtro gaussiano y aumento de contraste.
 
 
 - Segmentación No Supervisada:
 
-  Aplicación de umbralización adaptativa.
+Aplicación de umbralización adaptativa.
 
 
 - Posprocesamiento y cuantificación automatizada:
 
-  Aplicación de método de clausura a la máscara binaria
-  Cuantificación mediante labels
+Aplicación de método de clausura a la máscara binaria.
+Cuantificación mediante labels.
